@@ -20,14 +20,24 @@ Before running the application or tests, make sure you have the following depend
 
 ## Execution
 
-1. Run .sh file using command
+1. Open a terminal and navigate to the project directory:
+
+   ```bash
+   cd <repository-name>
+   
+3. Run .sh file using command:
 
    ```bash
    ./export.sh -v ./config.xml
 
 ## Test Cases
 
-1. Run .sh file using command
+1. Open a terminal and navigate to the project directory:
+
+   ```bash
+  cd xml-redis-export
+   
+2. Run .sh file using command
 
    ```bash
    npm jest
