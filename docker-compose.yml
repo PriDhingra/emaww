@@ -1,0 +1,15 @@
+version: '3'
+services:
+  xml-redis-export:
+    build:
+      context: ./xml-redis-export
+    container_name: xml-redis-export
+    depends_on:
+      - redis
+    environment:
+      - REDIS_HOST=redis
+      - XML_FILE_PATH=${XML_FILE_PATH}
+    ports:
+      - "3000:3000"
+  redis:
+    image: redis:latest
