@@ -24,7 +24,7 @@ Before running the application or tests, make sure you have the following depend
 
    ```bash
    cd <repository-name>
-2.  Run .sh file using command:
+2. Run .sh file using command:
 
    ```bash
    ./export.sh -v ./config.xml
@@ -34,7 +34,7 @@ Before running the application or tests, make sure you have the following depend
 1. Open a terminal and navigate to the project directory:
 
    ```bash
-  cd xml-redis-export
+   cd xml-redis-export
 2. Run .sh file using command
 
    ```bash
